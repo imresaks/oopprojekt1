@@ -41,6 +41,10 @@ public class maindev {
 
     private static void ressursideOptimiseerimine() {
         System.out.println("ressursid");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sisesta c ehk -");
+        int c = scanner.nextInt();
+        System.out.println(c);
     }
 
     private static void hinnaMuutmine() {
