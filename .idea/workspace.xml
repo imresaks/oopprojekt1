@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="sisend">
+    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="tehtud valija">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maindev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maindev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maindev.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,7 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -60,6 +65,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -93,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710765302551</updated>
-      <workItem from="1710765303622" duration="2318000" />
+      <workItem from="1710765303622" duration="3238000" />
     </task>
     <task id="LOCAL−00001" summary="first">
       <option name="closed" value="true" />
@@ -116,7 +122,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1710766822864</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="tehtud valija">
+      <option name="closed" value="true" />
+      <created>1710767929043</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1710767929043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +139,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="test" />
     <MESSAGE value="sisend" />
-    <option name="LAST_COMMIT_MESSAGE" value="sisend" />
+    <MESSAGE value="tehtud valija" />
+    <option name="LAST_COMMIT_MESSAGE" value="tehtud valija" />
   </component>
 </project>

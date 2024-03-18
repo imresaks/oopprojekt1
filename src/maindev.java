@@ -15,13 +15,13 @@ public class maindev {
     private static void otsustaTegevus(String sisend) {
         switch (sisend) {
             case "h":
-                hinnaMuutmine(sisend);
+                hinnaMuutmine();
                 break;
             case "r":
-                ressursideOptimiseerimine(sisend);
+                ressursideOptimiseerimine();
                 break;
             case "m":
-                motivatsiooniprobleemid(sisend);
+                motivatsiooniprobleemid();
                 break;
             default:
                 System.out.println("Halb sisend");
@@ -30,15 +30,15 @@ public class maindev {
         }
     }
 
-    private static void motivatsiooniprobleemid(String sisend) {
+    private static void motivatsiooniprobleemid() {
         System.out.println("motprobleem");
     }
 
-    private static void ressursideOptimiseerimine(String sisend) {
+    private static void ressursideOptimiseerimine() {
         System.out.println("ressursid");
     }
 
-    private static void hinnaMuutmine(String sisend) {
+    private static void hinnaMuutmine() {
         System.out.println("hinnamuutmine");
     }
 }
