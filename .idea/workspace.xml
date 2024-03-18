@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="tehtud valijale parandus 2, lisatud meetod algus">
+    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="scannib integeri">
+      <change afterPath="$PROJECT_DIR$/src/Valemid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValemidElastsus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maindev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maindev.java" afterDir="false" />
     </list>
@@ -59,6 +61,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/saksimre/Desktop/proge/oop/p5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710765302551</updated>
-      <workItem from="1710765303622" duration="4725000" />
+      <workItem from="1710765303622" duration="7522000" />
     </task>
     <task id="LOCAL−00001" summary="first">
       <option name="closed" value="true" />
@@ -142,7 +145,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1710769165685</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="scannib integeri">
+      <option name="closed" value="true" />
+      <created>1710770075899</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1710770075899</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +165,7 @@
     <MESSAGE value="tehtud valija" />
     <MESSAGE value="tehtud valijale parandus 1" />
     <MESSAGE value="tehtud valijale parandus 2, lisatud meetod algus" />
-    <option name="LAST_COMMIT_MESSAGE" value="tehtud valijale parandus 2, lisatud meetod algus" />
+    <MESSAGE value="scannib integeri" />
+    <option name="LAST_COMMIT_MESSAGE" value="scannib integeri" />
   </component>
 </project>

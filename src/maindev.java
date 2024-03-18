@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class maindev {
     public static void main(String[] args) {
+        //System.out.println(valemid.piirkuluKapital(100, 5, 8));
         algus();
     }
 
@@ -42,12 +43,33 @@ public class maindev {
     private static void ressursideOptimiseerimine() {
         System.out.println("ressursid");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Sisesta c ehk -");
-        int c = scanner.nextInt();
-        System.out.println(c);
+        System.out.println("Palju sul oli aasta tagasi töötajaid");
+        int L1 = scanner.nextInt();
+        System.out.println(L1);
+        System.out.println("Palju oli sul aasta tagasi kapitali (masinad, töövahendid jne)?");
+        int K1 = scanner.nextInt();
+        System.out.println(K1);
+        System.out.println("Palju on sul praegu töötajaid?");
+        int L2 = scanner.nextInt();
+        System.out.println(L2);
+        System.out.println("Palju on sul praegu kapitali?");
+        int K2 = scanner.nextInt();
+        System.out.println(K2);
+        System.out.println("Palju muutus sinu tootmiskogus võrreldes eelmise aastaga?");
+        int deltaQ = scanner.nextInt();
+        System.out.println(deltaQ);
+        System.out.println("Palju maksab praegu üks ühik kapitali?");
+        int r = scanner.nextInt();
+        System.out.println(r);
+        System.out.println();
+        ValemidPalkKogukulu ressurss = new ValemidPalkKogukulu(deltaQ, K1, K2, L1, L2, r);
+        System.out.println(ressurss);
+        System.out.println(ressurss.kogukulu());
+
     }
 
     private static void hinnaMuutmine() {
         System.out.println("hinnamuutmine");
+
     }
 }
