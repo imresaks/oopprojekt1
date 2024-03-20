@@ -67,13 +67,13 @@ public class maindev {
         System.out.println("Kõigepealt vajame mõningaid andmeid, et teha vajalikud arvutused");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Sisesta, mis oli su toote/teenuse hind enne hinna muutmist?");
-        long H1 = scanner.nextInt();
+        double H1 = scanner.nextDouble();
         System.out.println("Sisesta, mis oli su toote/teenuse hind peale hinna muutmist?");
-        long H2 = scanner.nextInt();
+        double H2 = scanner.nextDouble();
         System.out.println("Palju müüsid esialgse hinna juures?");
-        long Q1 = scanner.nextInt();
+        double Q1 = scanner.nextDouble();
         System.out.println("Palju müüsid muudetud hinna juures?");
-        long Q2 = scanner.nextInt();
+        double Q2 = scanner.nextDouble();
 
         System.out.println();
         ValemidElastsus andmed = new ValemidElastsus(H1, H2, Q1, Q2);

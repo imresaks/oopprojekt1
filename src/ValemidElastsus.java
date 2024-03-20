@@ -1,17 +1,17 @@
 public class ValemidElastsus {
-    private long H1;
-    private long H2;
-    private long Q1;
-    private long Q2;
+    private double H1;
+    private double H2;
+    private double Q1;
+    private double Q2;
 
-    public ValemidElastsus(long h1, long h2, long q1, long q2) {
+    public ValemidElastsus(double h1, double h2, double q1, double q2) {
         H1 = h1;
         H2 = h2;
         Q1 = q1;
         Q2 = q2;
     }
-    public long hinnaelastsus(){
-        long elastsus=((Q2-Q1)/Q1)/((H2-H1)/H1);
+    public double hinnaelastsus(){
+        double elastsus=((Q2-Q1)/Q1)/((H2-H1)/H1);
         if (elastsus<0)elastsus=elastsus*-1;
         if (H2>H1) {
             if (elastsus == 1) {
