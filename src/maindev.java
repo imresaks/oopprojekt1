@@ -123,7 +123,7 @@ public class maindev {
         System.out.println();
         ValemidElastsus andmed = new ValemidElastsus(H1, H2, Q1, Q2);
         //System.out.println(andmed);
-
+        System.out.println("Tulemus andmete " + andmed.getH1() + " , " + andmed.getH2() + " , " + andmed.getQ1() + " , " + andmed.getQ2() + " korral:");
         andmed.hinnaelastsus();
 
 

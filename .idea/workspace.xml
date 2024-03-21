@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="scannib integeri">
-      <change afterPath="$PROJECT_DIR$/inspmsg.txt" afterDir="false" />
+    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="motprobleem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maindev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maindev.java" afterDir="false" />
     </list>
@@ -59,7 +58,6 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -154,7 +152,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1710770075899</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="motprobleem">
+      <option name="closed" value="true" />
+      <created>1711035702656</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1711035702656</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +185,7 @@
     <MESSAGE value="tehtud valijale parandus 1" />
     <MESSAGE value="tehtud valijale parandus 2, lisatud meetod algus" />
     <MESSAGE value="scannib integeri" />
-    <option name="LAST_COMMIT_MESSAGE" value="scannib integeri" />
+    <MESSAGE value="motprobleem" />
+    <option name="LAST_COMMIT_MESSAGE" value="motprobleem" />
   </component>
 </project>
