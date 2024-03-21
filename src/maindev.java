@@ -1,3 +1,13 @@
+/**
+ * Objektorienteeritud programmeerimine. Rühmatöö nr 1.
+ * Autorid: Imre Saks, Hannah Kaarma
+ */
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Random;
 import java.util.Scanner;
 
 public class maindev {
@@ -9,7 +19,7 @@ public class maindev {
     private static void algus() {
         Scanner obj = new Scanner(System.in);
         System.out.println("Millega on sul täna abi vaja?");
-        System.out.println("Hinna muutmis otsuste analüüsimine (h)");
+        System.out.println("Hinna muutmise otsuste analüüsimine (h)");
         System.out.println("Tööjõu palga ja kogu kulu leidmine optimaalse tootmise korral (r)");
         System.out.println("Motivatsiooniprobleemid (m)");
         System.out.print("Kirjuta valik siia: ");
@@ -37,7 +47,42 @@ public class maindev {
     }
 
     private static void motivatsiooniprobleemid() {
-        System.out.println("motprobleem");
+        System.out.println("Tundub, et sul on probleeme motivatsiooniga.\nÄra muretse, meie programm aitab sind taas tööle saada!\n--------------------------------");
+        try {
+            Thread.sleep(2000); //sleep 2s et näeks naturaalsem välja
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Random rnd = new Random();
+        int msgIndeks = rnd.nextInt(100);
+        System.out.println("Mõtteainet sulle:");
+        System.out.println(loeSõnumit("inspmsg.txt", msgIndeks));
+    }
+
+    /**
+     *
+     * @param fileName failinimi
+     * @param msgIndeks mis realt lugeda (0 kuni lõpp-1)
+     * @return String motsõnumiga
+     * Kasutan BufferedReaderit, sest pikkade txt failide käsitlemisel on see mõistlikum kui lihtsalt Scanneri kasutamine
+     * Sõnumid genereeris AI
+     */
+    private static String loeSõnumit(String fileName, int msgIndeks) {
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))){
+            String rida;
+            int käesolevRida = 0;
+            while ((rida = br.readLine()) != null){
+                if (käesolevRida == msgIndeks){
+                    return rida;
+                }
+                käesolevRida++;
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return null;
     }
 
     private static void ressursideOptimiseerimine() {

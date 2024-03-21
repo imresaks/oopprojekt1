@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="">
+    <list default="true" id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="scannib integeri">
+      <change afterPath="$PROJECT_DIR$/inspmsg.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValemidElastsus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValemidElastsus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValemidPalkKogukulu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValemidPalkKogukulu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maindev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maindev.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,39 +45,38 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2drTfLrLlKnFklbVwF3epYKC2hK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.maindev.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hanna/OneDrive/TU_baka/OOP/Kodutood/KodutooV&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.maindev.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/saksimre/Documents/estUnicodeDictionary/EstonianDictionaryWordlist_et_EE.dic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.maindev">
+}]]></component>
+  <component name="RunManager">
     <configuration name="maindev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maindev" />
-      <module name="oopprojekt1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="oopprojekt1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,7 +85,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.maindev" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +95,7 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\saksimre\Documents\estUnicodeDictionary" CustomDictionaries="1" CustomDictionary0="C:\Users\saksimre\Documents\estUnicodeDictionary\EstonianDictionaryWordlist_et_EE.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="39473d15-d531-4619-aba8-1f9667b64cdd" name="Changes" comment="" />
@@ -103,8 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710765302551</updated>
-      <workItem from="1710765303622" duration="1287000" />
-      <workItem from="1710970033879" duration="4005000" />
+      <workItem from="1710765303622" duration="7522000" />
     </task>
     <task id="LOCAL−00001" summary="first">
       <option name="closed" value="true" />
@@ -120,26 +119,67 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1710765845911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="sisend">
+      <option name="closed" value="true" />
+      <created>1710766822864</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1710766822864</updated>
+    </task>
+    <task id="LOCAL−00004" summary="tehtud valija">
+      <option name="closed" value="true" />
+      <created>1710767929043</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1710767929043</updated>
+    </task>
+    <task id="LOCAL−00005" summary="tehtud valijale parandus 1">
+      <option name="closed" value="true" />
+      <created>1710768569494</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1710768569494</updated>
+    </task>
+    <task id="LOCAL−00006" summary="tehtud valijale parandus 2, lisatud meetod algus">
+      <option name="closed" value="true" />
+      <created>1710769165685</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1710769165685</updated>
+    </task>
+    <task id="LOCAL−00007" summary="scannib integeri">
+      <option name="closed" value="true" />
+      <created>1710770075899</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1710770075899</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ValemidElastsus.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="sisend" />
+    <MESSAGE value="tehtud valija" />
+    <MESSAGE value="tehtud valijale parandus 1" />
+    <MESSAGE value="tehtud valijale parandus 2, lisatud meetod algus" />
+    <MESSAGE value="scannib integeri" />
+    <option name="LAST_COMMIT_MESSAGE" value="scannib integeri" />
   </component>
 </project>
