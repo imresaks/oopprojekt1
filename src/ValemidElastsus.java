@@ -10,6 +10,39 @@ public class ValemidElastsus {
         Q1 = q1;
         Q2 = q2;
     }
+
+    public double getH1() {
+        return H1;
+    }
+
+    public void setH1(double h1) {
+        H1 = h1;
+    }
+
+    public double getH2() {
+        return H2;
+    }
+
+    public void setH2(double h2) {
+        H2 = h2;
+    }
+
+    public double getQ1() {
+        return Q1;
+    }
+
+    public void setQ1(double q1) {
+        Q1 = q1;
+    }
+
+    public double getQ2() {
+        return Q2;
+    }
+
+    public void setQ2(double q2) {
+        Q2 = q2;
+    }
+
     public double hinnaelastsus(){
         double elastsus=((Q2-Q1)/Q1)/((H2-H1)/H1);
         if (elastsus<0)elastsus=elastsus*-1;
@@ -56,5 +89,15 @@ public class ValemidElastsus {
             }
         }
         return elastsus;
+    }
+
+    @Override
+    public String toString() {
+        return "Vajalikud andmed elastsuse arvutamiseks{" +
+                "Esialgne hind=" + H1 +
+                ", Hind pärast muutmist =" + H2 +
+                ", Esialgne kogus=" + Q1 +
+                ", Kogust pärast hinna muutmist=" + Q2 +
+                '}';
     }
 }

@@ -14,6 +14,55 @@ public class ValemidPalkKogukulu {
         this.L2 = l2;
         this.r = r;
     }
+
+    public int getDeltaQ() {
+        return deltaQ;
+    }
+
+    public void setDeltaQ(int deltaQ) {
+        this.deltaQ = deltaQ;
+    }
+
+    public int getK1() {
+        return K1;
+    }
+
+    public void setK1(int k1) {
+        K1 = k1;
+    }
+
+    public int getK2() {
+        return K2;
+    }
+
+    public void setK2(int k2) {
+        K2 = k2;
+    }
+
+    public int getL1() {
+        return L1;
+    }
+
+    public void setL1(int l1) {
+        L1 = l1;
+    }
+
+    public int getL2() {
+        return L2;
+    }
+
+    public void setL2(int l2) {
+        L2 = l2;
+    }
+
+    public int getR() {
+        return r;
+    }
+
+    public void setR(int r) {
+        this.r = r;
+    }
+
     public double piirkuluKapital(){
         return (double) this.deltaQ / (this.K2 - this.K1);
     }
@@ -29,7 +78,7 @@ public class ValemidPalkKogukulu {
 
     @Override
     public String toString() {
-        return "Valemid{" +
+        return "Vajalikud andmed{" +
                 "deltaQ=" + deltaQ +
                 ", K1=" + K1 +
                 ", K2=" + K2 +

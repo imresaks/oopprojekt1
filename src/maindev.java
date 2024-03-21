@@ -9,8 +9,8 @@ public class maindev {
     private static void algus() {
         Scanner obj = new Scanner(System.in);
         System.out.println("Millega on sul täna abi vaja?");
-        System.out.println("Hinna muutmine (h)");
-        System.out.println("Ressurside optimiseerimine (r)");
+        System.out.println("Hinna muutmis otsuste analüüsimine (h)");
+        System.out.println("Tööjõu palga ja kogu kulu leidmine optimaalse tootmise korral (r)");
         System.out.println("Motivatsiooniprobleemid (m)");
         System.out.print("Kirjuta valik siia: ");
         String sisend = obj.nextLine();
